@@ -1,0 +1,17 @@
+name: gshards
+version: 0.1.0
+
+authors:
+  - Mark Molnar <molnarpw@gmail.com>
+
+dependencies:
+  bargs:
+    github: crystalrealm/bargs
+
+targets:
+  gshards:
+    main: src/gshards.cr
+
+crystal: 0.26.0
+
+license: MIT
